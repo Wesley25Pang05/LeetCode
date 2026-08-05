@@ -23,7 +23,7 @@ class Solution:
         while int(num) > 0:
             add = self.representThreeDigits(int(num) % 1000)
             if add:
-                number = self.representThreeDigits(int(num) % 1000) + commas.pop() + number
+                number = add + commas.pop() + number
             else:
                 commas.pop()
             num = int(num) // 1000
