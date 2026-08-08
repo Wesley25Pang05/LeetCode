@@ -20,3 +20,12 @@ class Solution:
             curr.next = ListNode(item)
             curr = curr.next
         return dummy.next
+
+# LeetCode Analysis:
+# Key Idea: Merge k sorted linked lists into one sorted list using efficient merging techniques.
+# Current: Array / Sorting
+# Suggested: Heap (Priority Queue)
+# Current complexity: O(NlogN)
+# Suggested complexity: O(NlogK)
+# Readability: Excellent
+# Structure: Excellent
